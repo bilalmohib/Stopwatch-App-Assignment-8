@@ -1,0 +1,203 @@
+body
+{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    text-align: center;
+    margin:0 auto;
+}
+nav{
+    background-color: rgb(105, 150, 118)
+}
+.nav-link{
+    font-size: 22px;
+    margin-left: 20px;
+    background-color: rgb(18, 42, 87);
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.nav-link:hover{
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: cornflowerblue;
+    border-radius: 90%;
+    transition: 1s linear;
+    box-shadow: 2px 2px 2px 2px rgb(18, 42, 87);
+}
+#navbarSupportedContent{
+    padding-left: 30px;
+}
+
+.navbar-brand
+{
+    color: inherit;
+    text-decoration: none;
+    color: rgb(20, 75, 9);
+    font-weight: bolder;
+    font-family: monospace;
+    font-size:35px;
+    margin-right:100px;
+    text-shadow: 2px 3px 3px rgb(255, 0, 128);
+}
+
+
+#msec{
+    font-size: 35px;
+    text-shadow: 2px 3px 2px white;
+    color: red;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    width: fit-content;
+}
+#sec{
+    font-size: 40px;
+    text-shadow: 2px 3px 2px white;
+    color: rgb(187, 169, 9);
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    width: fit-content;
+}
+#min{
+    font-size: 50px;
+    text-shadow: 2px 3px 2px white;
+    color: rgb(53, 211, 32);
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    width: fit-content;
+}
+#hour{
+    font-size: 50px;
+    text-shadow: 2px 3px 2px rgb(199, 20, 20);
+    color: rgb(211, 83, 32);
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+#container{
+    text-align: center;
+    max-width: 600px;
+    height: auto;
+    line-height: 80px;
+    border: 3px solid green;
+    color:red;
+    box-shadow: 3px 3px 3px aliceblue;
+    font-family: 'PT Serif', serif;
+    border-radius: 5%;
+    background-color: rgb(18, 42, 87);
+    margin: 0 auto;
+}
+
+#buttons{
+    font-size: 40px;
+    
+    text-align: center;
+    
+}
+button{
+    margin-left: 100px;
+ 
+}
+
+.headMain
+{
+    font-size: 60px;
+    text-align: center;
+    min-width: fit-content; 
+    color:aliceblue;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    text-shadow: 2px 3px 3px blue;
+    background-color: transparent;   
+}
+
+.btn1
+{
+    background-color: chartreuse;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 2px 3px 2px 2px lightgreen;
+}
+.btn2
+{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 2px 3px 2px 2px purple;
+}
+.btn3
+{
+    background-color: darkblue;
+    color: chocolate;
+    border-radius: 5%;
+    max-width: fit-content;
+    box-shadow: 2px 3px 2px 3px lightblue;
+}
+.btn4
+{
+    background-color: rgb(0, 139, 116);
+    color: rgb(84, 30, 210);
+    border-radius: 5%;
+    box-shadow: 2px 3px 2px 3px lightblue;
+}
+
+.btn5
+{
+    font-size: 35px;
+    background-color: darkblue;
+    color: rgb(30, 210, 30);
+    border-radius: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: fit-content;
+    box-shadow: 2px 3px 2px 3px lightblue;
+}
+
+
+#history{
+    display: none;
+    background-color: rgb(129, 120, 179);
+    max-width: fit-content;
+    color: rgb(13, 63, 13);
+    font-size: 30px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: auto;
+}
+
+#list
+{
+    font-size: 30px;
+    width: fit-content;
+    color: rgb(8, 45, 78);
+    font-style: italic;
+    text-shadow: 3px 3px 3px green;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(117, 201, 22);
+    border-bottom: 1px solid blue;
+    border-radius: 5%;
+    margin-top: 20px;
+
+}
+
+@media screen and (max-width: 330px) 
+{
+     .headMain
+     {
+         font-size: 30px;
+     }
+}
+
+
+@media screen and (max-width: 700px) 
+{
+     .headMain
+     {
+         font-size: 30px;
+     }
+}
