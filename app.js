@@ -1,24 +1,3 @@
-// setInterval(function(){
-//    console.log("runnning...");
-// },1000)
-
-// var count=0;
-// var interval;
-
-
-
-// interval=setInterval(function(){
-//     count++
-//     console.log(count);
-// },1000)
-
-
-// setTimeout(function(){
-//     clearInterval(interval);
-// },5000)
-
-
-
 var hour=0;
 var min=0;
 var sec=0;
@@ -85,14 +64,15 @@ function stop()
 
 function reset()
 {
-    clearInterval(interval);
-    
+      clearInterval(interval);
+    hour=0;
+    hourHeading.innerHTML=hour+" H";
     min=0;
-    minHeading.innerHTML=0;
+    minHeading.innerHTML=min+" min";
     sec=0;
-    secHeading.innerHTML=0;
+    secHeading.innerHTML=sec+" s";
     msec=0;
-    msecHeading.innerHTML=0;
+    msecHeading.innerHTML=msec+" ms";
     check=true;
 
 }
@@ -117,25 +97,9 @@ function checkCorrect()
     }
 }
 
-function HideShow() {
-    var x = document.getElementById("history");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
 
-
-
-
-
-
-
-//   dsklfhsdklfhsdjklfhsdjklfhsdjklafhsjkl
 var div = document.getElementById('list'); 
   
 function GFG_Fun() { 
     div.parentNode.removeChild(list); 
 } 
-//  sdafklsdjfikjsdklfjdskfhsdjkafhsdjkfhsjdk
